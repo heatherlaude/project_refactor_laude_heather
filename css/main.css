@@ -171,10 +171,6 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
-
-}
-
 .post .meta .posted {
     display: block;
     padding: 0;
@@ -308,4 +304,19 @@ a {
 
 #banner img {
     width: 100%;
+}
+
+@media (min-width: 456px) {
+    #menu li {
+        float: left;
+        padding-bottom: 10px;
+    }
+    
+    .post .meta .date {
+        float: left;
+    }
+    
+    .post .meta .posted {
+        float: right;
+    }
 }
