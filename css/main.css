@@ -320,3 +320,29 @@ a {
         float: right;
     }
 }
+
+@media (min-width: 690px) {
+    #logo {
+        float: left;
+    }
+    
+    #menu {
+        float: right;
+    }
+    
+    #menu li a {
+        height: 50px;
+        padding-top: 20px;
+    }
+    
+    #sidebar {
+        float: left;
+        width: 40%;
+    }
+
+    #content {
+        float: right;
+        width: 60%;
+    }
+}
+
