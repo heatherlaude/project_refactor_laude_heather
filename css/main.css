@@ -321,6 +321,10 @@ a {
     .post .meta .posted {
         float: right;
     }
+    
+    .post .entry {
+        clear: both;
+    }
 }
 
 @media (min-width: 690px) {
