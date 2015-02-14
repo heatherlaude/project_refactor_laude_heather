@@ -49,11 +49,10 @@ a {
 /* Header */
 
 #header-wrapper {
-    overflow: hidden;
+
 }
 
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -61,14 +60,12 @@ a {
 /* Logo */
 
 #logo {
-    float: left;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
 }
 
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
 }
@@ -101,27 +98,23 @@ a {
 /* Menu */
 
 #menu {
-    float: right;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 5px 0px 10px 0px;
     list-style: none;
     line-height: normal;
 }
 
 #menu li {
-    float: left;
 }
 
 #menu a {
     display: block;
-    line-height: 100px;
+    line-height: 2em;
     margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
