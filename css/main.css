@@ -147,7 +147,8 @@ a {
 
 .post {
     overflow: hidden;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    padding: 0px 20px 0px 20px;
     border-bottom: 1px solid #E7EBED;
 }
 
@@ -163,7 +164,7 @@ a {
 }
 
 .post .meta {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     padding: 10px 0px 0px 0px;
     text-align: left;
     font-family: 'Abel', sans-serif;
@@ -172,11 +173,13 @@ a {
 }
 
 .post .meta .date {
-    float: left;
+
 }
 
 .post .meta .posted {
-    float: right;
+    display: block;
+    padding: 0;
+
 }
 
 .post .entry {
