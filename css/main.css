@@ -40,6 +40,8 @@ a {
 
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .container {
